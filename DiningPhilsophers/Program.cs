@@ -11,8 +11,8 @@ namespace DiningPhilsophers
     {
         // Create a bool array of forks...
         public static bool[] Forks = new bool[5];       // Contains 5 forks - one for each philosopher..
-        public static Philsophers[] Philsophers { get; set; } = new Philsophers[5];
-        public static Thread[] Threads { get; set; } = new Thread[5];
+        public static Philsophers[] Philsophers = new Philsophers[5];
+        public static Thread[] Threads = new Thread[5];
 
 
         public static void Main(string[] args)
